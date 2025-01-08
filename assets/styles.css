@@ -1,0 +1,29 @@
+@keyframes fadeInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-navbar {
+    animation: fadeInFromTop 1s ease-out;
+  }
+  @keyframes slideInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-mobile-menu {
+    animation: slideInFromTop 0.5s ease-out forwards;
+  }
+    
